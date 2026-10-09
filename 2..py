@@ -11,7 +11,6 @@ def flat_generator(list_of_lists):
         outer_index +=1
 
 
-
 def test_2():
 
     list_of_lists_1 = [

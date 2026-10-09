@@ -5,7 +5,6 @@ class FlatIterator:
         self.outer_index = 0
         self.inner_index = 0
 
-
     def __iter__(self):
         return self
 
@@ -20,9 +19,6 @@ class FlatIterator:
             self.inner_index = 0
             self.outer_index += 1
         raise StopIteration
-
-
-
 
 
 def test_1():
